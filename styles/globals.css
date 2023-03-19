@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        @apply bg-[#fefefe] text-[#1F2937]
+    }
+
+    h1 {
+        @apply text-4xl sm:text-6xl md:text-6xl mb-8
+    }
+
+    h2 {
+        @apply text-3xl sm:text-4xl
+    }
+
+    h3 {
+        @apply text-2xl sm:text-3xl mt-8 mb-4
+    }
+
+    a {
+        @apply lg:text-2xl text-blue-700 cursor-pointer hover:bg-blue-800 hover:text-white
+    }
+
+    li {
+        @apply text-2xl
+    }
+
+}
