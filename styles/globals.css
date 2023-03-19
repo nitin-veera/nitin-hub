@@ -4,7 +4,7 @@
 
 @layer base {
     body {
-        @apply bg-[#fefefe] text-[#1F2937]
+        @apply bg-[#fefefe] text-[#1F2937] dark:bg-slate-800 dark:text-white
     }
 
     h1 {
@@ -20,7 +20,7 @@
     }
 
     a {
-        @apply lg:text-2xl text-blue-700 cursor-pointer hover:bg-blue-800 hover:text-white
+        @apply lg:text-2xl text-blue-700 cursor-pointer hover:bg-blue-800 hover:text-white dark:text-blue-400 dark:hover:bg-blue-500
     }
 
     li {
