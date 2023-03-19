@@ -42,6 +42,9 @@ export default function Home() {
                         <li>🥣 watching cartoons while eating copious amounts of cereal</li>
                     </ul>
                 </section>
+                <footer className={"my-8"}>
+                    <p className={"my-3 text-gray-400"}>Nitin Veeraperumal © 2023 </p>
+                </footer>
             </div>
         </div>
     </main>
