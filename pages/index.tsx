@@ -1,6 +1,5 @@
 import Metatags from "@/components/Metatags";
-//import Typed from 'react-typed';
-
+import { TypeAnimation } from 'react-type-animation';
 
 export default function Home() {
   return (
@@ -9,13 +8,20 @@ export default function Home() {
         <div className={"flex flex-col justify-center items-center min-h-screen"}>
             <div className={"max-w-[900px] m-8"}>
                 <div className={""}>
-                    {/*<Typed*/}
-                    {/*    strings={[*/}
-                    {/*        'Hi, I\'m Nitin']}*/}
-                    {/*    typeSpeed={40}*/}
-                    {/*    className={"text-4xl sm:text-5xl md:text-6xl mb-8"}*/}
-                    {/*/>*/}
-                    <h1>Hi, I&apos;m Nitin</h1>
+                    <TypeAnimation
+                        sequence={[
+                            500,
+                            'Hi ',
+                            1000,
+                            'Hi, I\'m Nitin',
+                            () => {
+                                console.log('Done typing!'); // Place optional callbacks anywhere in the array
+                            }
+                        ]}
+                        cursor={true}
+                        className={"text-4xl sm:text-6xl md:text-6xl mb-8"}
+                        speed={20}
+                    />
                     <nav className={"block mt-8"}>
                         <a href={"https://github.com/nitin-veera"} target="_blank" rel="noopener noreferrer">Github</a>
                         &nbsp; &#124; &nbsp;
