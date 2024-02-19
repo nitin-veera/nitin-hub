@@ -1,12 +1,13 @@
 import Metatags from "@/components/Metatags";
 import { TypeAnimation } from 'react-type-animation';
+import Link from 'next/link'
 
 export default function Home() {
   return (
     <main>
         <Metatags />
         <div className={"flex flex-col justify-center items-center min-h-screen"}>
-            <div className={"max-w-[900px] m-8"}>
+            <div className={"max-w-[700px] m-8"}>
                 <div className={""}>
                     <TypeAnimation
                         sequence={[
@@ -28,6 +29,8 @@ export default function Home() {
                         <a href={"https://linkedin.com/in/nitin-veeraperumal/"} target="_blank" rel="noopener noreferrer">Linkedin</a>
                         &nbsp; &#124; &nbsp;
                         <a href={"mailto:nitinveera@ucla.edu"} target="_blank" rel="noopener noreferrer">Email</a>
+                        &nbsp; &#124; &nbsp;
+                        <Link href="/blog">Blog</Link>
                     </nav>
                 </div>
                 <section className={"block"}>
