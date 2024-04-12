@@ -31,19 +31,10 @@ export default function Home() {
                     </nav>
                 </div>
                 <section className={"block"}>
-                    <h3>Currently, I&apos;m:</h3>
-                    <ul>
-                        <li>👨🏾‍💻 a student at UCLA studying math and computer science</li>
-                        <li>📲 learning web and iOS development so I can build cool things</li>
-                    </ul>
-                    <h3 className={"mt-8 mb-4"}>In my free time I enjoy:</h3>
-                    <ul>
-                        <li>🏋🏾 lifting weights and chugging protein shakes</li>
-                        <li>🥣 watching cartoons while eating copious amounts of cereal</li>
-                    </ul>
+                    <h3>⚠️ under construction ⚠️</h3>
                 </section>
                 <footer className={"my-8"}>
-                    <p className={"my-3 text-gray-400"}>Nitin Veeraperumal © 2023 </p>
+                    <p className={"my-3 text-gray-400"}>Nitin Veeraperumal © 2024 </p>
                 </footer>
             </div>
         </div>
